@@ -73,3 +73,7 @@ If you'd like to contribute to this project, please follow the standard GitHub w
 2. Create a feature branch
 3. Commit your changes
 4. Create a pull request
+
+Replace `your_database_name` with the actual name of your MongoDB database, and `your_jwt_secret_key` with a secure secret key for signing JSON Web Tokens (JWT) used in user authentication.
+
+Make sure to add the `.env` file to your `.gitignore` to prevent it from being tracked by Git and accidentally exposing your sensitive information.
