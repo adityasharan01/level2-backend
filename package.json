@@ -1,7 +1,7 @@
 {
   "name": "level2-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains the backend code for the color theme preference project. It is built using Node.js, Express, GraphQL, and MongoDB.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/adityasharan01/level2-backend#readme",
   "dependencies": {
-    "apollo-server-express": "^3.12.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "graphql": "^16.6.0",
-    "mongoose": "^7.1.2"
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0",
+    "path": "^0.12.7"
   }
 }

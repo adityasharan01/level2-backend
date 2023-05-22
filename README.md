@@ -1,20 +1,20 @@
 # Backend for Color Theme Preference
 
-This repository contains the backend code for the color theme preference project. It is built using Node.js, Express, GraphQL, and MongoDB.
+This repository contains the backend code for the color theme preference project. It is built using Node.js, Express, and MongoDB.
 
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
+## Folder Structure
+backend
+├── models
+│   └── user.js
+├── routes
+│   └── user.js
+├── server.js
+└── package.json
 
 ## Features
 
 - User authentication using email and password
 - Save and retrieve user color preferences
-- GraphQL API for managing user data
 
 ## Installation
 
