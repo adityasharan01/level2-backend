@@ -8,13 +8,13 @@ router.get('/theme/:email', (req, res) => {
     User.findOne({ email })
         .then(user => {
             if (user) {
-                res.json({ theme: user.theme });
+                return res.json({ theme: user.theme });
             } else {
-                res.status(404).json({ message: 'User not found' });
+                return res.status(404).json({ message: 'User not found' });
             }
         })
         .catch(error => {
-            res.status(500).json({ message: 'Internal server error' });
+            return res.status(500).json({ message: 'Internal server error' });
         });
 });
 
@@ -27,13 +27,13 @@ router.post('/theme', (req, res) => {
     )
         .then((data) => {
 
-            res.status(200).json({
+            return res.status(200).json({
                 status: true,
                 message: data,
             });
         })
         .catch(error => {
-            res.status(500).json({ status: false, message: error.message });
+            return res.status(500).json({ status: false, message: error.message });
         });
 });
 
