@@ -2,9 +2,9 @@
   "name": "level2-backend",
   "version": "1.0.0",
   "description": "This repository contains the backend code for the color theme preference project. It is built using Node.js, Express, GraphQL, and MongoDB.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "build": "node server.js",
+    "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
