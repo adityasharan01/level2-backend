@@ -3,6 +3,7 @@
 This repository contains the backend code for the color theme preference project. It is built using Node.js, Express, and MongoDB.
 
 ## Folder Structure
+```
 backend
 ├── models
 │   └── user.js
@@ -10,7 +11,7 @@ backend
 │   └── user.js
 ├── server.js
 └── package.json
-
+```
 ## Features
 
 - User email is required
