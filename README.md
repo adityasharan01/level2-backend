@@ -13,7 +13,7 @@ backend
 
 ## Features
 
-- User authentication using email and password
+- User email is required
 - Save and retrieve user color preferences
 
 ## Installation
